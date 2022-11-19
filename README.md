@@ -1,16 +1,13 @@
-# Vue 3 + TypeScript + Vite
+# sy-mathjax
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+> 思源mathjax挂件
 
-## Recommended IDE Setup
+## 使用
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+创建挂件后，显示输入框，在输入框中输入公式，例如 y = kx +　b。然后点击生成按钮即可在输入框下方看到渲染的公式。点击隐藏按钮显示输入框部分，调整挂件大小即可。
+修改内容：点击公式即可显示输入框，再次进行修改后生成即可。
 
-## Type Support For `.vue` Imports in TS
+## Release
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
-
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
-
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+v1.0.0
+首次发布，支持明暗两种主题颜色，支持生成功能。
